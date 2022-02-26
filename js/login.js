@@ -5,8 +5,7 @@ document.getElementById('submit-btn').addEventListener('click',function(){
    
 
     const emailPassword = document.getElementById('user-password');
-    const userPassword = emailPassword.value;
-    
+    const userPassword = emailPassword.value;   
 
     if(userEmail == 'user' && userPassword == '1234'){
         window.location.href = "./banking.html";
